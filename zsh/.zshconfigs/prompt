@@ -1,0 +1,7 @@
+precmd() { vcs_info }
+zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:*' formats "%F{010}(%b)%f "
+   
+setopt prompt_subst 
+
+PROMPT='%F{39}%n%F{16}: %F{89}%m%F{16}: %F{214}%1d ${vcs_info_msg_0_}%F{112}$%f '

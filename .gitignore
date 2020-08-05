@@ -1,0 +1,9 @@
+.tmux.conf.swp
+vim/.vim/plugged
+vim/.vim/.netrwhist
+VsCode/.config/**
+!VsCode/.config/**/User/settings.json
+hexchat/.config/hexchat/scrollback/
+hexchat/.config/hexchat/logs/
+nvim/.config/nvim/.netrwhist
+git/.gitconfig

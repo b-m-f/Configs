@@ -1,0 +1,7 @@
+autoload -Uz compinit
+autoload -Uz vcs_info
+
+compinit
+
+## ignore case
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
