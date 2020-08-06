@@ -5,3 +5,8 @@ compinit
 
 ## ignore case
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+
+# Use ctrl-r for reverse search
+bindkey -v
+bindkey '^R' history-incremental-search-backward
