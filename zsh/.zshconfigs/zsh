@@ -4,7 +4,7 @@ autoload -Uz vcs_info
 compinit
 
 ## ignore case
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
 
 # Use ctrl-r for reverse search
