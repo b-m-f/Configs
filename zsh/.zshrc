@@ -7,6 +7,9 @@ fi
 ## environment variables (nvm etc)
 source ~/.zshconfigs/environment
 
+## zsh specifics
+source ~/.zshconfigs/zsh
+
 ## config stuff for git
 source ~/.zshconfigs/git_config
 
@@ -25,5 +28,3 @@ source ~/.zshconfigs/kubernetes
 ## program configs
 source ~/.zshconfigs/programs
 
-## zsh specifics
-source ~/.zshconfigs/zsh
