@@ -6,7 +6,9 @@ compinit
 ## ignore case
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
+# use normal keymap to avoid auto vi mode because $VISUAL is set to vim
+bindkey -e
+
 
 # Use ctrl-r for reverse search
-bindkey -v
 bindkey '^R' history-incremental-search-backward

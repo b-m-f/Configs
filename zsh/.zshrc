@@ -3,8 +3,6 @@
 if [ -f ~/.zshconfigs/local ]; then
     source ~/.zshconfigs/local
 fi
-## zsh specifics
-source ~/.zshconfigs/zsh
 
 ## environment variables (nvm etc)
 source ~/.zshconfigs/environment
@@ -27,4 +25,5 @@ source ~/.zshconfigs/kubernetes
 ## program configs
 source ~/.zshconfigs/programs
 
-
+## zsh specifics
+source ~/.zshconfigs/zsh
