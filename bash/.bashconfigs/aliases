@@ -1,0 +1,31 @@
+function rebase_branch_to_latest_master {
+  set -e
+  if [ $# -eq 0 ]
+    then
+      echo "Please supply branch to update and the base"
+    else
+      branch_to_update=$1
+      base_branch=$2
+      echo "Rebasing branch $1 on $2"
+      git checkout $base_branch
+      git pull $base_branch
+      git checkout $branch_to_update
+      git rebase $base_branch
+  fi
+}
+
+
+alias la="ls -la"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gpl="git pull"
+alias gco="git checkout"
+alias gco-="git checkout @{-1}"
+alias gco--="git checkout @{-2}"
+alias grb="rebase_branch_to_latest_master"
+
+
+# Use WX11 backend until clipboard is supported well in alacritty
+alias alacritty="env WINIT_UNIX_BACKEND=x11 alacritty"

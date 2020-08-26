@@ -1,0 +1,2 @@
+# --list-cmds= seems to be broken. Just enable this again after a git update
+# source ~/.bashconfigs/plugins/git_completion
