@@ -1,8 +1,9 @@
 .tmux.conf.swp
 vim/.vim/plugged
 vim/.vim/.netrwhist
-!VsCode/.config/**/User/settings.json
 VsCode/.config/**
+!VsCode/.config/**/User/settings.json
 nvim/.config/nvim/.netrwhist
 __pycache__/
 zsh/.zshconfigs/local
+git/.gitconfig
