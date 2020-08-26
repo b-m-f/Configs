@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = b-m-f
+	email = max@ehlers.berlin 
+[user]
+	signingKey = 4BC8AFBE1FA13A37D7582DD831DB22A0E00A67E3
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[core]
+	excludesfile = ~/.gitignore_global
