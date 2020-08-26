@@ -29,7 +29,7 @@
     }
   ],
   "window.zoomLevel": 0,
-  "editor.fontFamily": "'Source Code Variable Roman',  'DejaVu Sans'",
+  "editor.fontFamily": "'Hack', 'Source Code Variable'",
   "python.formatting.blackArgs": ["--line-length", "79"],
   "emmet.includeLanguages": {
     "django-html": "html"
