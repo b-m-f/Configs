@@ -1,8 +1,7 @@
 .tmux.conf.swp
 vim/.vim/plugged
 vim/.vim/.netrwhist
-VsCode/.config/**
 !VsCode/.config/**/User/settings.json
+VsCode/.config/**
 nvim/.config/nvim/.netrwhist
-git/.gitconfig
-alacritty-terminal/.config/alacritty/.alacritty.yml.swp
+__pycache__/
