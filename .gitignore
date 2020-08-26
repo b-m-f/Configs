@@ -6,4 +6,3 @@ VsCode/.config/**
 nvim/.config/nvim/.netrwhist
 __pycache__/
 zsh/.zshconfigs/local
-git/.gitconfig
