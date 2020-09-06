@@ -38,7 +38,7 @@
   "python.formatting.provider": "black",
   "python.analysis.logLevel": "Trace",
   "window.titleBarStyle": "custom",
-  "workbench.iconTheme": null,
+  "workbench.iconTheme": "vs-minimal",
   "python.linting.pycodestyleArgs": ["--ignore=W503"],
   "python.sortImports.path": "isort",
   "explorer.confirmDelete": false,
