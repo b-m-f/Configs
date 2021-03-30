@@ -1,21 +1,21 @@
 call plug#begin(stdpath('data') . '/plugged')
-Plug 'overcache/NeoSolarized'
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 "" Theme
-colorscheme NeoSolarized
-set termguicolors
+syntax enable
 set background=light
+colorscheme solarized
+
 
 "" Shortcuts
 let mapleader = ","
 
-"" Normal mode
-map <Leader>\ :vsplit <CR>
-map <Leader>- :split <CR>
-map <leader>h :wincmd h<CR>
-map <leader>j :wincmd j<CR>
-map <leader>k :wincmd k<CR>
-map <leader>l :wincmd l<CR>
-
-
+"" Normal mode 
+map <Leader>\ :vsplit<CR>
+map <Leader>- :split<CR>
+map <Leader>h :wincmd h<CR>
+map <Leader>j :wincmd j<CR>
+map <Leader>k :wincmd k<CR>
+map <Leader>l :wincmd l<CR>
+map <Leader><space> :noh<CR>
