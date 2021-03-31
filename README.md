@@ -3,13 +3,15 @@
 ![Screenshot of setup](./Screenshot.png)
 
 ## Set up configuration files
-Install:
-* tmux (xsel to copy from tmux)
-* nvim
-* stow
-* git
 
-Now run 'chmod +x  link.sh && ./link.sh' to link all config files to their correct destination.
+Install:
+
+- tmux (xsel to copy from tmux)
+- nvim
+- stow
+- git
+
+Now run 'chmod +x link.sh && ./link.sh' to link all config files to their correct destination.
 
 Update `~/.gitconfig` with the correct values
 
@@ -18,10 +20,10 @@ Update `~/.gitconfig` with the correct values
 Everything is matched to used [solarized](https://ethanschoonover.com/solarized/).
 Tmux, nvim and alacritty are all setup this way, and will stay synced when a changed occurs
 
-
 ## tmux
 
 ### Shortcuts
+
 **Leader is** `Ctrl+a`
 **Meta key depends on your OS**
 
@@ -44,8 +46,6 @@ Tmux, nvim and alacritty are all setup this way, and will stay synced when a cha
 - Copy in copy mode: y
 - Toggle rectangle select in copy mode: r
 
-
-
 ## nvim
 
 First make sure to install [vim-plug](https://github.com/junegunn/vim-plug) for nvim.
@@ -63,4 +63,3 @@ Then start nvim and run `:PlugInstall`
 - Move to window right: \<Leader\> + l
 - Move to window left: \<Leader\> + h
 - Remove search highlights: \<Leader\> + <space>
-

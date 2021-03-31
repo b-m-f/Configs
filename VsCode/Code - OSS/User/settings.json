@@ -1,0 +1,88 @@
+{
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.hlsearch": true,
+  "vim.leader": ",",
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-o>": false,
+    "<C-n>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "\\"
+      ],
+      "commands": [
+        "workbench.action.splitEditorRight"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "-"
+      ],
+      "commands": [
+        "workbench.action.splitEditorDown"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    }
+  ],
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "'Hack', 'Source Code Variable'",
+  "python.formatting.blackArgs": [
+    "--line-length",
+    "79"
+  ],
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "python.dataScience.enabled": false,
+  "python.formatting.provider": "black",
+  "python.analysis.logLevel": "Trace",
+  "window.titleBarStyle": "custom",
+  "workbench.iconTheme": "vs-minimal",
+  "python.linting.pycodestyleArgs": [
+    "--ignore=W503"
+  ],
+  "python.sortImports.path": "isort",
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue"
+    ]
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true
+  },
+  "workbench.colorTheme": "Solarized Light",
+  "terminal.integrated.fontFamily": "monospace",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
