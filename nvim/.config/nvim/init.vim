@@ -6,6 +6,7 @@ call plug#end()
 syntax enable
 set background=light
 colorscheme solarized
+set number
 
 
 "" Shortcuts
