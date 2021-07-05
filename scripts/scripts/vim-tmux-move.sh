@@ -7,6 +7,6 @@ if [[ $program == "nvim" ]]; then
 elif [[ $program == "vim" ]]; then
 	tmux split-window $1 -c "#{pane_current_path}" "vim ."
 else
-	tmux split-window $1 
+	tmux split-window $1 -c "#{pane_current_path}"
 fi
 
