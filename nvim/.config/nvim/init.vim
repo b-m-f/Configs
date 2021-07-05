@@ -19,3 +19,7 @@ let mapleader = ","
 map <Leader><space> :noh<CR>
 map <Leader>ex :ex .<CR>
 map <Leader>p :FZF<CR>
+
+
+"" languages
+filetype plugin indent on

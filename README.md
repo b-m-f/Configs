@@ -2,6 +2,13 @@
 
 ![Screenshot of setup](./Screenshot.png)
 
+## Overview
+
+Terminal movement: tmux
+quick editing: neovim
+complex development: VsCode
+Shell: ZSH
+
 ## Set up configuration files
 
 - Install:
@@ -14,13 +21,6 @@
 	- ripgrep
 - Update `~/.gitconfig` with the correct values
 - use `link.sh` script to link all the configs relative to the home directory
-
-## Architecture
-
-Tmux and vim are integrated together with scripts.
-This allows sharing of shortcuts for navigation.
-
-Check the `tmux.conf` as this is the starting point to handle shortcuts for navigation.
 
 ## Theme
 
@@ -66,5 +66,14 @@ Then start nvim and run `:PlugInstall`
 - Remove search highlights: \<Leader\> + <space>
 - Find file in the CWD: \<Leader\> + p
 - open file list: \<Leader\> + ex
+
+## VsCode
+
+Configuration settings are automatically applied, while plugins need to be installed on first start.
+
+### Plugins
+
+- vim
+- rust
 
 
