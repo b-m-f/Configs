@@ -1,7 +1,6 @@
 .tmux.conf.swp
-vim/.vim/plugged
-vim/.vim/.netrwhist
-nvim/.config/nvim/.netrwhist
+.netrwhist
+.netrwbook
 __pycache__/
 zsh/.zshconfigs/local
 VsCode/**
