@@ -4,16 +4,23 @@
 
 ## Set up configuration files
 
-Install:
+- Install:
+	- tmux (xsel to copy from tmux)
+	- nvim
+	- stow
+	- git
+	- VsCode
+	- fzf
+	- ripgrep
+- Update `~/.gitconfig` with the correct values
+- use `link.sh` script to link all the configs relative to the home directory
 
-- tmux (xsel to copy from tmux)
-- nvim
-- stow
-- git
+## Architecture
 
-Now run 'chmod +x link.sh && ./link.sh' to link all config files to their correct destination.
+Tmux and vim are integrated together with scripts.
+This allows sharing of shortcuts for navigation.
 
-Update `~/.gitconfig` with the correct values
+Check the `tmux.conf` as this is the starting point to handle shortcuts for navigation.
 
 ## Theme
 
@@ -56,10 +63,8 @@ Then start nvim and run `:PlugInstall`
 
 **Leader key is** `,`
 
-- Vertical Split: \<Leader\> + \
-- Horiztontal Split: \<Leader\> + -
-- Move to window above: \<Leader\> + k
-- Move to window below: \<Leader\> + j
-- Move to window right: \<Leader\> + l
-- Move to window left: \<Leader\> + h
 - Remove search highlights: \<Leader\> + <space>
+- Find file in the CWD: \<Leader\> + p
+- open file list: \<Leader\> + ex
+
+

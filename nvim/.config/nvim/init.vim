@@ -17,3 +17,5 @@ let mapleader = ","
 
 "" Normal mode 
 map <Leader><space> :noh<CR>
+map <Leader>ex :ex .<CR>
+map <Leader>p :FZF<CR>
